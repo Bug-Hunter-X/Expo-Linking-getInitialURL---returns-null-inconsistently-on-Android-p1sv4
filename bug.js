@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Linking` API to handle deep links.  The `getInitialURL` method might return `null` even when a deep link is opened, leading to unexpected behavior in your application. This is particularly problematic on Android devices running certain versions of the operating system or when the app is launched from a specific notification.
